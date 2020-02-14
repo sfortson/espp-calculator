@@ -1,0 +1,48 @@
+{
+    "extends": [
+        "standard",
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "prettier",
+        "prettier/flowtype"
+    ],
+    "settings": {
+        "react": {
+            "version": "^16.4.2"
+        }
+    },
+    "parser": "babel-eslint",
+    "plugins": [
+        "flowtype",
+        "import",
+        "prettier",
+        "react-hooks"
+    ],
+    "env": {
+        "browser": true
+    },
+    "rules": {
+        "flowtype/define-flow-type": 1,
+        "flowtype/use-flow-type": 1,
+        
+        "prettier/prettier": "error",
+        "react/sort-comp": "error",
+        "react/jsx-no-duplicate-props": "error",
+
+        "no-invalid-this": "off",
+        
+        "import/first": "error",
+        "import/no-duplicates": "error",
+        "import/extensions": "error",
+        "import/order": "error",
+        "import/newline-after-import": "error",
+
+        "react/jsx-wrap-multilines": "off",
+        "react/jsx-indent": "off",
+        "func-style": "off",
+        "sort-imports": "off",
+
+        "react-hooks/rules-of-hooks": "error", // Checks rules of Hooks
+        "react-hooks/exhaustive-deps": "warn" // Checks effect dependencies
+    }
+}
