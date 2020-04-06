@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/espp-calculator/precache-manifest.d4c4ccb9b7159ee81b0f1a38fcf3c25e.js"
+  "/espp-calculator/precache-manifest.82ac66349d139430b1a4f4f48b819494.js"
 );
 
 self.addEventListener('message', (event) => {
